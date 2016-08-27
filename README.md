@@ -8,12 +8,6 @@ which `device` is the /dev path of the disk and, optionally, is possible to incl
 
 It should work in any linux version, but it was only tested in a Ubuntu system.
 
-Table of Contents
-=================
-
-* [How this works?](#how-this-works)
-* [Version Changelog](#version-changelog)
-
 # How this works?
 **ssdadd** uses smartctl to obtain your disk model and to obtain the S.M.A.R.T ID which shows the disk's temperature. 
 Also, checks the HDDTemp database, to verify if your disk is not in the database and, if obtains the necessary information successfully, adds the disk.
