@@ -1,6 +1,6 @@
 # ssdadd
 
-** ssdadd ** is a bash script to add missing disks in the HDDTemp database. To clone the repository and run the program
+**ssdadd** is a bash script to add missing disks in the HDDTemp database. To clone the repository and run the program
     git clone https://github.com/noegodinho/ssdadd
     cd ssdadd
     sudo ./ssdadd.sh device [HDDTemp_database]
@@ -15,7 +15,7 @@ Table of Contents
 * [Version Changelog](#version-changelog)
 
 # How this works?
-** ssdadd ** uses smartctl to obtain your disk model and to obtain the S.M.A.R.T ID which shows the disk's temperature. 
+**ssdadd** uses smartctl to obtain your disk model and to obtain the S.M.A.R.T ID which shows the disk's temperature. 
 Also, checks the HDDTemp database, to verify if your disk is not in the database and, if obtains the necessary information successfully, adds the disk.
 
 # Version Changelog
