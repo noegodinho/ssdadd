@@ -6,7 +6,7 @@
     cd ssdadd
     sudo ./ssdadd.sh device [HDDTemp_database]
 
-which `device` is the /dev path of the disk and, optionally, is possible to include the HDDTemp database if previously known.
+where `device` is the /dev path of the disk and, optionally, is possible to include the HDDTemp database if previously known.
 
 It should work in any linux version, but it was only tested in a Ubuntu system.
 
