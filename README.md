@@ -1,9 +1,11 @@
 # ssdadd
 
 **ssdadd** is a bash script to add missing disks in the HDDTemp database. To clone the repository and run the program
+    
     git clone https://github.com/noegodinho/ssdadd
     cd ssdadd
     sudo ./ssdadd.sh device [HDDTemp_database]
+
 which `device` is the /dev path of the disk and, optionally, is possible to include the HDDTemp database if previously known.
 
 It should work in any linux version, but it was only tested in a Ubuntu system.
